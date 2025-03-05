@@ -1,0 +1,7 @@
+/* Điều chỉnh kích thước hình ảnh */
+.profile-img {
+    max-width: 80%;  /* Giới hạn chiều rộng của ảnh */
+    height: auto;     /* Giữ tỷ lệ gốc */
+    border-radius: 10px; /* Bo góc nhẹ */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+}
