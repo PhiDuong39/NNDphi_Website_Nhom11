@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới Thiệu - Nguyễn Ngọc Đường Phi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero-section {
+            background: linear-gradient(135deg, #4b6cb7 0%, #182848 100%);
+            color: white;
+            padding: 100px 0;
+            margin-bottom: 50px;
+        }
+        .profile-img {
+            border-radius: 50%;
+            border: 5px solid rgba(255,255,255,0.3);
+        }
+        .skill-item {
+            margin-bottom: 15px;
+        }
+        .progress {
+            height: 10px;
+            border-radius: 20px;
+        }
+        .education-item, .experience-item {
+            padding: 20px;
+            border-left: 3px solid #4b6cb7;
+            margin-bottom: 20px;
+            background-color: #f8f9fa;
+        }
+        .contact-info i {
+            width: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Nguyễn Ngọc Đường Phi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#about">Giới Thiệu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Học Vấn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Kỹ Năng</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Liên Hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-section text-center" id="about">
+        <div class="container">
+            <img src="/api/placeholder/200/200" alt="Nguyễn Ngọc Đường Phi" class="profile-img mb-4">
+            <h1 class="display-4">Nguyễn Ngọc Đường Phi</h1>
+            <p class="lead">Sinh Viên Công Nghệ Thông Tin | HUTECH</p>
+            <div class="mt-4">
+                <a href="#" class="btn btn-light me-2"><i class="fab fa-github"></i> GitHub</a>
+                <a href="#" class="btn btn-light me-2"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-8">
+                <section class="mb-5" id="about-detail">
+                    <h2 class="mb-4">Về Tôi</h2>
+                    <p>Tôi là Nguyễn Ngọc Đường Phi, sinh viên ngành Công nghệ Thông tin tại Trường Đại học Công nghệ TP.HCM (HUTECH). Tôi đam mê về lập trình và thiết kế web, luôn tìm tòi học hỏi những kiến thức mới trong lĩnh vực IT.</p>
+                    <p>Mục tiêu của tôi là trở thành một nhà phát triển phần mềm chuyên nghiệp, đóng góp vào những dự án có tác động tích cực đến xã hội.</p>
+                </section>
+                
+                <section class="mb-5" id="education">
+                    <h2 class="mb-4">Học Vấn</h2>
+                    <div class="education-item">
+                        <h4>Đại học Công nghệ TP.HCM (HUTECH)</h4>
+                        <p class="text-muted">Cử nhân Công nghệ Thông tin | 2020 - 2024</p>
+                        <p>Chuyên ngành: Kỹ thuật phần mềm</p>
+                        <p>GPA: 3.5/4.0</p>
+                    </div>
+                </section>
+                
+                <section class="mb-5" id="experience">
+                    <h2 class="mb-4">Kinh Nghiệm</h2>
+                    <div class="experience-item">
+                        <h4>Thực tập sinh Phát triển Web</h4>
+                        <p class="text-muted">Công ty ABC | 06/2023 - 08/2023</p>
+                        <ul>
+                            <li>Tham gia phát triển giao diện người dùng cho các dự án web</li>
+                            <li>Hỗ trợ xây dựng REST API sử dụng Node.js</li>
+                            <li>Làm việc trong môi trường Agile/Scrum</li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            
+            <div class="col-lg-4">
+                <section class="mb-5" id="skills">
+                    <h2 class="mb-4">Kỹ Năng</h2>
+                    
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span>HTML/CSS</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span>JavaScript</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span>ReactJS</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span>Java</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span>SQL</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="mb-5" id="contact">
+                    <h2 class="mb-4">Liên Hệ</h2>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> phi.nguyen@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> 0912 345 678</p>
+                        <p><i class="fas fa-map-marker-alt"></i> TP.HCM, Việt Nam</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2024 Nguyễn Ngọc Đường Phi</p>
+            <div class="mt-2">
+                <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
